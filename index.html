@@ -1,63 +1,49 @@
 <!DOCTYPE html>
-<html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>رزومه من</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>نام و نام خانوادگی</h1>
-            <p>عنوان شغلی</p>
-            <p>تلفن: ۰۲۱-۹۱۳۰۰۰۱۳</p>
-            <p>ایمیل: <a href="mailto:info@iranestekhdam.ir">info@iranestekhdam.ir</a></p>
-            <p>آدرس: تهران، خیابان شریعتی، خیابان میرداماد</p>
-            <p>وب سایت: <a href="http://www.iranestekhdam.ir" target="_blank">www.iranestekhdam.ir</a></p>
-        </header>
-        <section>
-            <h2>زبان های خارجی</h2>
-            <ul>
-                <li>انگلیسی</li>
-                <li>فرانسه</li>
-                <li>آلمانی</li>
-            </ul>
-        </section>
-        <section>
-            <h2>مهارت های نرم</h2>
-            <ul>
-                <li>مهارت نرم ۱</li>
-                <li>مهارت نرم ۲</li>
-                <li>مهارت نرم ۳</li>
-            </ul>
-        </section>
-        <section>
-            <h2>مهارت های ICDL</h2>
-            <p>توضیحات مربوط به مهارت های ICDL</p>
-        </section>
-        <section>
-            <h2>سوابق تحصیلی</h2>
-            <p>دوره کارشناسی - دانشگاه ------------ از سال 1300 تا سال 1300 با معدل ......</p>
-            <p>دوره کارشناسی ارشد - دانشگاه ------------ از سال 1300 تا سال 1300 با معدل ......</p>
-            <p>فعالیت های دانشگاهی</p>
-            <ul>
-                <li>عضویت در کانون علمی دانشکده</li>
-                <li>عضویت در کانون نویسندگان دانشگاه</li>
-            </ul>
-        </section>
-        <section>
-            <h2>تجربه کاری</h2>
-            <div class="job">
-                <h3>نام شرکت</h3>
-                <p>سمت شغلی | تاریخ فعالیت</p>
-                <ul>
-                    <li>وظیفه یا دستاورد #۱</li>
-                    <li>وظیفه یا دستاورد #۲</li>
-                    <li>وظیفه یا دستاورد #۳</li>
-                </ul>
-            </div>
-        </section>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./RTLbootstrap/css/bootstrap-rtl.css" />
+  </head>
+  <body>
+    <div class="first">
+      <h2>HI</h2>
     </div>
-</body>
+    <div class="second">
+      <div class="left col-md-6">
+        <h2>WHATS UP</h2>
+      </div>
+      <div class="right col-md-6">
+        <h2>YOU OK</h2>
+      </div>
+    </div>
+    <div class="third">
+      <div class="container col-md-6">
+        <form method="post" action="" name="contact-form">
+          <input
+            class="form-input"
+            type="text"
+            name="name"
+            placeholder="نام و نام خانوادگی"
+          /><br />
+          <input
+            class="form-input"
+            type="text"
+            name="number"
+            placeholder="شماره تلفن"
+          />
+          <button type="submit" id="submit">
+            <span id="submit-text">Submit</span>
+            <span id="loading-spinner" class="spinner hidden"></span>
+          </button>
+        </form>
+      </div>
+      <script src="app.js"></script>
+      <div class="right col-md-6">
+        <h1>salam</h1>
+      </div>
+    </div>
+    <div class="footer col-md-12">
+      <h2>BYE</h2>
+    </div>
+  </body>
 </html>
