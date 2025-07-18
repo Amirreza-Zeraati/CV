@@ -1,11 +1,11 @@
 const data = {
     "languages": {
+        "Go": 60,
+        "JavaScript": 40,
+        "C++": 30,
         "Python": 85,
-        "JavaScript": 60,
-        "C++": 40,
-        "Go": 50,
         "Bash": 50,
-        "HTML": 99,
+        "HTMX": 70,
         "CSS": 70,
     }
 };
@@ -82,7 +82,7 @@ function getLanguageColor(language) {
         CMake: '#DA3434',
         Dockerfile: '#384d54',
         CSS: '#563d7c',
-        HTML: '#e34c26',
+        HTMX: '#e34c26',
         Assembly: '#6E4C13',
         ASL: '#6a40fd'
     };
