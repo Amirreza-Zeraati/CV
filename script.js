@@ -1,9 +1,9 @@
 const data = {
     "languages": {
-        "Go": 60,
+        "Go": 70,
         "JavaScript": 40,
         "C++": 30,
-        "Python": 85,
+        "Python": 80,
         "Bash": 50,
         "HTMX": 70,
         "CSS": 70,
